@@ -1,11 +1,11 @@
 Todo::Application.routes.draw do
 
+#new view file => 'controller_name # viewfile_name'
 get '/' => 'index#index'
-get '/todos' => 'todos#list'
-get '/todos' => 'todos#create'
-
-# get '/todos' => 'todos#edit'
-# get '/todos' => 'todos#delete'
+get '/tasks' => 'tasks#list'
+get '/tasks/create' => 'tasks#create'
+# get '/tasks/edit' => 'tasks#edit'
+# get '/tasks/delete' => 'tasks#delete'
 
 
 

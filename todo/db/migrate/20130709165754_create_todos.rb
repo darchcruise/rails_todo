@@ -1,6 +1,6 @@
 class CreateTodos < ActiveRecord::Migration
   def up
-    create_table :todos do |t|
+    create_table :tasks do |t|
       t.string :todo
       t.timestamps
     end
