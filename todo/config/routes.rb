@@ -1,8 +1,9 @@
 Todo::Application.routes.draw do
 
 get '/' => 'index#index'
-# get '/todos' => 'todos#create'
-# get '/todos' => 'todos#list'
+get '/todos' => 'todos#list'
+get '/todos' => 'todos#create'
+
 # get '/todos' => 'todos#edit'
 # get '/todos' => 'todos#delete'
 
